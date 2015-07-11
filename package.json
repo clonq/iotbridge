@@ -1,9 +1,11 @@
 {
   "name": "iotbridge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "simple iot bridge service",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm install",
+    "start": "DEBUG=iotbridge:* node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/clonq/iotbridge/issues"
   },
-  "homepage": "https://github.com/clonq/iotbridge"
+  "homepage": "https://github.com/clonq/iotbridge",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "cors": "^2.7.1",
+    "debug": "^2.2.0",
+    "ejs": "^2.3.2",
+    "errorhandler": "^1.4.1",
+    "express": "^4.13.1",
+    "path": "^0.11.14"
+  }
 }
