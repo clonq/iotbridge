@@ -1,0 +1,18 @@
+{
+  "name": "iotbridge",
+  "version": "0.1.0",
+  "description": "simple iot bridge service",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clonq/iotbridge.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clonq/iotbridge/issues"
+  },
+  "homepage": "https://github.com/clonq/iotbridge"
+}
